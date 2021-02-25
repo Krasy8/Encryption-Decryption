@@ -59,22 +59,22 @@ Please see the examples of how to use the application in the "Usage" section bel
 **Example 1**
 
 **Input:**  
-java Application -mode enc -key 8 -data "Welcome to Encryption-Decryption" -alg unicode
-
+java Application -mode enc -key 7 -data "Welcome to Encryption-Decryption" -alg unicode
+  
 **Output:**  
-The input is: Welcome to Encryption-Decryption
-The result is: _mtkwum(|w(Mvkzx|qwv5Lmkzx|qwv
+The input is: Welcome to Encryption-Decryption  
+The result is: ^lsjvtl'{v'Lujy w{pvu4Kljy w{pvu
 
 **Example 2**
 
 **Input:**  
-java Application -mode enc -in road_to_treasure.txt -out protected.txt -key 6 -alg unicode
+java Application -mode enc -in road_to_treasure.txt -out protected.txt -key 7 -alg unicode
 
 This command gets data from the file road_to_treasure.txt, encrypt the data with the key 5, create a file called protected.txt and write ciphertext to it.
 
 **Output:**  
-The input to encrypt is: "I hope you enjoy learning java"
-The result is: (O&nuvk&u{&ktpu&rkgxtotm&pg|g(
+The input to encrypt is: "I hope you enjoy learning java"  
+The result is: )P'ovwl' v|'luqv 'slhyupun'qh}h)
 
 **Example 3**
 
@@ -82,7 +82,7 @@ The result is: (O&nuvk&u{&ktpu&rkgxtotm&pg|g(
 java Application -key 5 -alg shift -data "Bjqhtrj yt jshwduynts-ijhwduynts" -mode dec
 
 **Output:**  
-The input is: Bjqhtrj yt jshwduynts-ijhwduynts
+The input is: Bjqhtrj yt jshwduynts-ijhwduynts  
 The result is: Welcome to encryption-decryption
 
 ## Built With 🏗
@@ -159,7 +159,7 @@ Pull requests are always welcome, and I'll do my best to do reviews as fast as I
 
 - Contact me on krasy8@gmail.com 📬 
 
-- If appropriate, [open an issue](https://github.com/this/project/issues) on GitHub 
+- If appropriate, [open an issue](https://github.com/Krasy8/Encryption-Decryption/issues) on GitHub 
 
 ## Motivation ⚡️
 
